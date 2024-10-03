@@ -5,9 +5,15 @@ MagentaTV findet automatisch alle MagentaTV Receiver, kann diese steuern und zei
 
 Getestet mit MR401, MR400
 
-Es wird für die Darstellung der Programinformationen ein ständig aktiver Telekom Account benötigt. Dieser Client wird als 'Fhem' (Browser Type MACWEBTV) in der DeviceList angezeigt. Es sind nur bis zu 5 Clients möglich. Damit könnte es zu Schwierigkeiten kommen, sofern die Anzahl an Clients schon ausgeschöpft ist.
+Es wird für die Darstellung der Programminformationen ein ständig aktiver Telekom Account benötigt. Dieser Client wird als 'Fhem' (Browser Type MACWEBTV) in der DeviceList angezeigt. Es sind nur bis zu 5 Clients möglich. Damit könnte es zu Schwierigkeiten kommen, sofern die Anzahl an Clients schon ausgeschöpft ist.
 
-### Hinweis: Folgende Libraries sind notwendig für dieses Modul:
+### update
+
+`update add https://raw.githubusercontent.com/RP-Develop/MagentaTV/main/controls_MagentaTV.txt`
+
+## Voraussetzung: 
+
+Folgende Libraries sind notwendig für dieses Modul:
 
 - Digest::MD5
 - HTML::Entities
@@ -25,3 +31,5 @@ Es wird für die Darstellung der Programinformationen ein ständig aktiver Telek
 Example: `define MagentaTV MagentaTV xxx@t-online.de xxxxxxx`
 
 Nach ca. 2 Minuten sollten alle Receiver gefunden und unter "MagentaTV" gelistet sein.
+
+Die Hilfe zu weiteren Funktionen, ist nach Installation in der Commandref zu finden. 
