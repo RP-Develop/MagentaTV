@@ -19,20 +19,6 @@
 #     and thanks to all Fhem developers, who have worked with UPnP 
 #
 #
-#	  This file is part of fhem.
-#
-#	  Fhem is free software: you can redistribute it and/or modify
-#	  it under the terms of the GNU General Public License as published by
-#	  the Free Software Foundation, either version 2 of the License, or
-#	  (at your option) any later version.
-#
-#	  Fhem is distributed in the hope that it will be useful,
-#	  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#	  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
-#	  GNU General Public License for more details.
-#
-#	  You should have received a copy of the GNU General Public License
-#	  along with fhem.	If not, see <http://www.gnu.org/licenses/>.
 #
 ###############################################################################
 
@@ -66,7 +52,7 @@ use UPnP::ControlPoint;
 
 # Modul Constanten #############################################################
 
-use constant VERSION 			=> "v1.1.6 - unreleased";
+use constant VERSION 			=> "v1.1.7";
 
 use constant HOST_LOGIN			=> "https://appepmfk10002.prod.sngtv.t-online.de:33227";
 #use constant HOST_ACCOUNT		=> "https://accounts.login.idm.telekom.com";
