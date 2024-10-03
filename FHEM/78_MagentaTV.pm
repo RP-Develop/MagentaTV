@@ -1,13 +1,11 @@
-# $Id: 78_MagentaTV.pm 221625 2023-08-06 00:00:00Z RalfP $
+# $Id: 78_MagentaTV.pm 221510 2024-10-03 00:00:00Z RalfP $
 ###############################################################################
 #
 #     78_MagentaTV.pm 
 #
 #     An FHEM Perl module for controlling of Telekom MagentaTV Receivers
 #
-#
-#	  Copyright by Ralf Putzke
-#	  e-mail: ralf.putzke@RP-Dev.de
+#	  https://github.com/RP-Develop/MagentaTV
 #
 #	  Based on
 #     - SONOS (Reinerlein)
@@ -17,8 +15,6 @@
 #
 #     many thanks for this pre work 
 #     and thanks to all Fhem developers, who have worked with UPnP 
-#
-#
 #
 ###############################################################################
 
