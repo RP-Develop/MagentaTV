@@ -7,7 +7,7 @@ Getestet mit MR401, MR400
 
 Es wird für die Darstellung der Programinformationen ein ständig aktiver Telekom Account benötigt. Dieser Client wird als 'Fhem' (Browser Type MACWEBTV) in der DeviceList angezeigt. Es sind nur bis zu 5 Clients möglich. Damit könnte es zu Schwierigkeiten kommen, sofern die Anzahl an Clients schon ausgeschöpft ist.
 
-# Hinweis: Folgende Libraries sind notwendig für dieses Modul:
+### Hinweis: Folgende Libraries sind notwendig für dieses Modul:
 
 - Digest::MD5
 - HTML::Entities
@@ -18,7 +18,7 @@ Es wird für die Darstellung der Programinformationen ein ständig aktiver Telek
 - Date::Parse
 - Encode
 
-# # 78_MagentaTV.pm
+## 78_MagentaTV.pm
 
 `define <name> MagentaTV Benutzername Password`
 
