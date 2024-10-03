@@ -28,7 +28,7 @@ Folgende Libraries sind notwendig für dieses Modul:
 
 `define <name> MagentaTV Benutzername Password`
 
-Beispiel: `define MagentaTV MagentaTV xxx@t-online.de xxxxxxx`
+Beispiel: `define MagentaTV MagentaTV user@t-online.de password`
 
 Nach ca. 2 Minuten sollten alle Receiver gefunden und unter "MagentaTV" gelistet sein.
 
