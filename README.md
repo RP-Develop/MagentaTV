@@ -1,7 +1,10 @@
 # MagentaTV - Fhem
+
+### Hinweis: Die Entwicklung ist eingestellt, da ich auf MagentaTV Gen. 2 gewechselt hab. 
+
 ## MagentaTV - Fhem Integration
 
-MagentaTV findet automatisch alle MagentaTV Receiver, kann diese steuern und zeigt Programminformationen an.
+MagentaTV findet automatisch alle MagentaTV Receiver Gen. 1, kann diese steuern und zeigt Programminformationen an.
 
 Getestet mit MR401, MR400
 
